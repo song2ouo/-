@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>동기부여 화면</title>
+
+    <script src="index.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url("https://www.edfenergy.com/sites/default/files/styles/spire_tile__media__full__media_landscape/public/alternative-energy-clouds-dawn-532192.jpg?itok=UOR06VDx");
+            background-position: left-top;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            color: white;
+        }
+
+        .time{
+            font-size: 150px;
+            font-weight: normal;
+        }
+
+        .greeting{
+            font-size: 80px;
+        }
+
+        .todo{
+            font-size: 40px;
+        }
+
+        .author{
+            font-size: 20px;
+            font-style: italic;
+        }
+
+        .main{
+            width: 100vw;
+            height: 80vh;
+        
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .quote{
+            width: 100vw;
+            height: 15vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+
+    <script>
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div id="time" class="time">12:00</div>
+        <div class="greeting">Hello, Songyi</div>
+        <div class="todo">오늘 하루도 즐겁게 보내기 :)</div>
+    </div>
+    <div class="quote">
+        <div id="author" class="author">- 명언의 저자 -</div>
+        <div id="content" class="content">" 명언의 내용 "</div>
+    </div>
+</body>
+
+</html>
